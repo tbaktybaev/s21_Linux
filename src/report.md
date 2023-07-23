@@ -2,17 +2,17 @@
 
 ## Part 1. Установка ОС
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled.png)
+![Untitled](screenshots/Untitled.png)
 
 - Версия Ubuntu 20.04.6 LTS
 
 ## Part 2. Создание пользователя
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%201.png)
+![Untitled](screenshots/Untitled%201.png)
 
 - Выполняется через команду `sudo adduser santobab2`
 
-![Снимок экрана 2023-07-22 в 3.35.43 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_3.35.43_PM.png)
+![Снимок экрана 2023-07-22 в 3.35.43 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_3.35.43_PM.png)
 
 - Создался пользователь с ником `santobab2` со всеми дополнительными данными.
 
@@ -20,50 +20,46 @@
 
 ### Задать название машины вида user-1
 
-![Снимок экрана 2023-07-22 в 3.47.00 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_3.47.00_PM.png)
+![Снимок экрана 2023-07-22 в 3.47.00 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_3.47.00_PM.png)
 
 ### Установить временную зону, соответствующую вашему текущему местоположению.
 
-![Снимок экрана 2023-07-22 в 3.52.25 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_3.52.25_PM.png)
+![Снимок экрана 2023-07-22 в 3.52.25 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_3.52.25_PM.png)
 
 - `sudo timedatectl set-timezone Europe/Moscow`
 
 ### Вывести названия сетевых интерфейсов с помощью консольной команды.
 
-![Снимок экрана 2023-07-22 в 3.57.43 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_3.57.43_PM.png)
+![Снимок экрана 2023-07-22 в 3.57.43 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_3.57.43_PM.png)
 
 - Интерфейс lo является локальной петлей, которая предназначена для обеспечения сетевого доступа к компьютеру и всегда имеет IP-адрес `127.0.0.1`
 
 ### Используя консольную команду получить ip адрес устройства, на котором вы работаете, от DHCP сервера.
 
-![Снимок экрана 2023-07-22 в 4.06.35 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_4.06.35_PM.png)
+![Снимок экрана 2023-07-22 в 4.06.35 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_4.06.35_PM.png)
 
 - `ifconfg || sudo ifconfig enp0s3`
 - inet - IPv4-адрес, inet6 - IPv6 адрес, netmask - маска подсети и шлюз. А UP - значит включен интерфейс, DOWN - выключен.
-    - На всякий случай: Расшифровка аббревиатуры DHCP - Dynamic Host Configuration Protocol
+  - На всякий случай: Расшифровка аббревиатуры DHCP - Dynamic Host Configuration Protocol
 
 ### Определить и вывести на экран внешний ip-адрес шлюза (ip) и внутренний IP-адрес шлюза, он же ip-адрес по умолчанию (gw).
 
-![Снимок экрана 2023-07-22 в 4.25.10 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_4.25.10_PM.png)
+![Снимок экрана 2023-07-22 в 4.25.10 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_4.25.10_PM.png)
 
 ### Задать статичные (заданные вручную, а не полученные от DHCP сервера) настройки ip, gw, dns (использовать публичный DNS серверы, например 1.1.1.1 или 8.8.8.8).
 
-![Снимок экрана 2023-07-22 в 4.34.21 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_4.34.21_PM.png)
+![Снимок экрана 2023-07-22 в 4.34.21 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_4.34.21_PM.png)
 
 ### Перезагрузить виртуальную машину. Убедиться, что статичные сетевые настройки (ip, gw, dns) соответствуют заданным в предыдущем пункте.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%202.png)
+![Untitled](screenshots/Untitled%202.png)
 
 - `sudo su -`
-    
-    `ifconfig enp0s3 192.168.1.10 netmask 255.255.255.0`
-    
-    `route add default gw 192.168.1.1 enp0s3`
-    
-    `echo “nameserver 1.1.1.1” > /etc/resolv.conf` или `echo “santobab@server 8.8.8.8” > /etc/resolv.conf`
-    
+  `ifconfig enp0s3 192.168.1.10 netmask 255.255.255.0`
+  `route add default gw 192.168.1.1 enp0s3`
+  `echo “nameserver 1.1.1.1” > /etc/resolv.conf` или `echo “santobab@server 8.8.8.8” > /etc/resolv.conf`
 
-![Снимок экрана 2023-07-22 в 5.02.15 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_5.02.15_PM.png)
+![Снимок экрана 2023-07-22 в 5.02.15 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_5.02.15_PM.png)
 
 - 3 пакета, 100% packet loss (из root не посылаются пинги)
 
@@ -71,75 +67,69 @@
 
 ### Обновить системные пакеты до последней на момент выполнения задания версии.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%203.png)
+![Untitled](screenshots/Untitled%203.png)
 
 ## Part 5. Использование команды **sudo**
 
-### Разрешить пользователю, созданному в [Part 2](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b.md), выполнять команду sudo.
+### Разрешить пользователю, созданному в [Part 2](screenshots.md), выполнять команду sudo.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%204.png)
+![Untitled](screenshots/Untitled%204.png)
 
 - `sudo usermod -a -G sudo santobab2`
-    
-    `su santobab2`
-    
-    `sudo hostname santobab2`
-    
+  `su santobab2`
+  `sudo hostname santobab2`
 - Команда **sudo** в Linux предназначена для предоставления временных привилегий администратора (root) обычным пользователям системы. С помощью этой команды обычные пользователи могут выполнять определенные команды с правами администратора без необходимости полного входа в систему под учетной записью с правами суперпользователя.
 
 ## Part 6. Установка и настройка службы времени
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%205.png)
+![Untitled](screenshots/Untitled%205.png)
 
 - `service chrony status`
-    
-    `systemctl enable chrony`
-    
-    `timedatectl show`
-    
+  `systemctl enable chrony`
+  `timedatectl show`
 
 ## Part 7. Установка и использование текстовых редактора.
 
-### Используя каждый из трех выбранных редакторов, создайте файл *test_X.txt*, где X -- название редактора, в котором создан файл. Напишите в нём свой никнейм, закройте файл с сохранением изменений.
+### Используя каждый из трех выбранных редакторов, создайте файл _test_X.txt_, где X -- название редактора, в котором создан файл. Напишите в нём свой никнейм, закройте файл с сохранением изменений.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%206.png)
+![Untitled](screenshots/Untitled%206.png)
 
 - Для выхода из vim редактора нужно:
-    - `ESC`
-    - `:w(write) q(quit)`
+  - `ESC`
+  - `:w(write) q(quit)`
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%207.png)
+![Untitled](screenshots/Untitled%207.png)
 
 - Для выхода из nano редактора:
-    - `CTRL + X`
-    - `Y`
+  - `CTRL + X`
+  - `Y`
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%208.png)
+![Untitled](screenshots/Untitled%208.png)
 
 - Для выхода из joe редактора нужно:
-    - `CTRL + K`
-    - `X || Q` (с предложением сохранения)
+  - `CTRL + K`
+  - `X || Q` (с предложением сохранения)
 
 ### Используя каждый из трех выбранных редакторов, откройте файл на редактирование, отредактируйте файл, заменив никнейм на строку "21 School 21", закройте файл без сохранения изменений.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%209.png)
+![Untitled](screenshots/Untitled%209.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2010.png)
+![Untitled](screenshots/Untitled%2010.png)
 
 - `ESC`
 - `:q!`
 - `Enter`
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2011.png)
+![Untitled](screenshots/Untitled%2011.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2012.png)
+![Untitled](screenshots/Untitled%2012.png)
 
 - `CTRL + X`
 - `N`
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2013.png)
+![Untitled](screenshots/Untitled%2013.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2014.png)
+![Untitled](screenshots/Untitled%2014.png)
 
 - `CTRL + K`
 - `Q`
@@ -147,39 +137,39 @@
 
 ### Используя каждый из трех выбранных редакторов, отредактируйте файл ещё раз (по аналогии с предыдущим пунктом), а затем освойте функции поиска по содержимому файла (слово) и замены слова на любое другое.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2015.png)
+![Untitled](screenshots/Untitled%2015.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2016.png)
-
-- Для поиска
-    - `/santobab`
-- Для поиска и замены
-    - `:s/santobab/nesantobab`
-
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2017.png)
-
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2018.png)
+![Untitled](screenshots/Untitled%2016.png)
 
 - Для поиска
-    - `CTRL + W`
+  - `/santobab`
 - Для поиска и замены
-    - `CTRL + \`
-    - Искомое слово
-    - Заменяемое слово
-    - `Enter`
+  - `:s/santobab/nesantobab`
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2019.png)
+![Untitled](screenshots/Untitled%2017.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2020.png)
+![Untitled](screenshots/Untitled%2018.png)
 
 - Для поиска
-    - `CTRL + K`
-    - `F`
+  - `CTRL + W`
 - Для поиска и замены
-    - `CTRL + K`
-    - `F(ind)`
-    - `R(eplace)`
-    - `Y(es)`
+  - `CTRL + \`
+  - Искомое слово
+  - Заменяемое слово
+  - `Enter`
+
+![Untitled](screenshots/Untitled%2019.png)
+
+![Untitled](screenshots/Untitled%2020.png)
+
+- Для поиска
+  - `CTRL + K`
+  - `F`
+- Для поиска и замены
+  - `CTRL + K`
+  - `F(ind)`
+  - `R(eplace)`
+  - `Y(es)`
 
 ## Part 8. Установка и базовая настройка сервиса **SSHD**
 
@@ -191,33 +181,33 @@
 
 ### Используя команду ps, показать наличие процесса sshd. Для этого к команде нужно подобрать ключи.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2021.png)
+![Untitled](screenshots/Untitled%2021.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2022.png)
+![Untitled](screenshots/Untitled%2022.png)
 
 **Значение команды и ключей:**
 
 - **`ps`**: Команда для отображения текущих активных процессов (process status).
 - **`ef`**: Ключи, которые указывают **`ps`** вывести информацию о всех процессах в системе (всех процессах пользователей) в полном формате (full format).
-    - **`e`**: Выводить информацию обо всех процессах, не ограничиваясь только процессами текущего пользователя.
-    - **`f`**: Выводить полную информацию о процессе, включая родительский процесс (PPID), UID, GID, использование CPU, использование памяти и др.
-- `|` : оператор который передает вывод команды `ps -ef` на поиск `grep`  который ищет по ключевому слову “sshd”
+  - **`e`**: Выводить информацию обо всех процессах, не ограничиваясь только процессами текущего пользователя.
+  - **`f`**: Выводить полную информацию о процессе, включая родительский процесс (PPID), UID, GID, использование CPU, использование памяти и др.
+- `|` : оператор который передает вывод команды `ps -ef` на поиск `grep` который ищет по ключевому слову “sshd”
 
 ### Перезагрузить систему.
 
 - Для установки службы SSHD:
-    - sudo apt install openssh-server
+  - sudo apt install openssh-server
 - Для автостарта службы SSHD:
-    - `sudo systemctl enable ssh`
-    - `sudo systemctl restart ssh`
+  - `sudo systemctl enable ssh`
+  - `sudo systemctl restart ssh`
 - Для перенастройки службы SSHD на порт 2022:
-    - `sudo nano /etc/ssh/sshd_config`
-    - `#Port 22 → Port 2022`
-    - `sudo systemctl restart ssh`
-- Для поиска процесса службы SSHD можно воспользоваться перенаправлением вывода команды `ps -ef`  в текстовый файл или в командной строке прописать `ps -ef | grep sshd` . Для того чтобы найти процесс в текстовом файле воспользуемся командами из [Part 7.](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b.md)
+  - `sudo nano /etc/ssh/sshd_config`
+  - `#Port 22 → Port 2022`
+  - `sudo systemctl restart ssh`
+- Для поиска процесса службы SSHD можно воспользоваться перенаправлением вывода команды `ps -ef` в текстовый файл или в командной строке прописать `ps -ef | grep sshd` . Для того чтобы найти процесс в текстовом файле воспользуемся командами из [Part 7.](screenshots.md)
 - Для перезагрузки системы - `reboot`
 
-![Снимок экрана 2023-07-22 в 7.39.57 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_7.39.57_PM.png)
+![Снимок экрана 2023-07-22 в 7.39.57 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_7.39.57_PM.png)
 
 В команде **`netstat -tan`**, ключи **`-tan`** имеют следующие значения:
 
@@ -239,51 +229,51 @@
 ### Установить и запустить утилиты top и htop.
 
 - По выводу команды top:
-    - uptime - 25 минут
-    - количество авторизованных пользователей - 1 авторизованный пользователь
-    - общую загрузку системы:
-        - за последнюю минуту - 0.00
-        - за последние 5 минут - 0.00
-        - за последние 15 минут - 0.00
-    - общее количество процессов - 96 процессов
-    - загрузку cpu - 0.0%
-    - загрузку памяти - 159.1КiB
-    - pid процесса занимающего больше всего памяти - 2146 : 0,2%
-    - pid процесса, занимающего больше всего процессорного времени - 2146 : 3,6%
+  - uptime - 25 минут
+  - количество авторизованных пользователей - 1 авторизованный пользователь
+  - общую загрузку системы:
+    - за последнюю минуту - 0.00
+    - за последние 5 минут - 0.00
+    - за последние 15 минут - 0.00
+  - общее количество процессов - 96 процессов
+  - загрузку cpu - 0.0%
+  - загрузку памяти - 159.1КiB
+  - pid процесса занимающего больше всего памяти - 2146 : 0,2%
+  - pid процесса, занимающего больше всего процессорного времени - 2146 : 3,6%
 
-![Снимок экрана 2023-07-22 в 8.03.39 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_8.03.39_PM.png)
+![Снимок экрана 2023-07-22 в 8.03.39 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-22_%25D0%25B2_8.03.39_PM.png)
 
 - В отчёт вставить скрин с выводом команды htop:
 - отсортированному по PID, PERCENT_CPU, PERCENT_MEM, TIME
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2023.png)
+![Untitled](screenshots/Untitled%2023.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2024.png)
+![Untitled](screenshots/Untitled%2024.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2025.png)
+![Untitled](screenshots/Untitled%2025.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2026.png)
+![Untitled](screenshots/Untitled%2026.png)
 
 - отфильтрованному для процесса sshd
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2027.png)
+![Untitled](screenshots/Untitled%2027.png)
 
 - с процессом syslog, найденным, используя поиск
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2028.png)
+![Untitled](screenshots/Untitled%2028.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2029.png)
+![Untitled](screenshots/Untitled%2029.png)
 
 - `htop -p "$(pgrep syslog | tr '\n' ',')”`
 - с добавленным выводом hostname, clock и uptime
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2030.png)
+![Untitled](screenshots/Untitled%2030.png)
 
 ## Part 10. Использование утилиты **fdisk**
 
 ### Запустить команду fdisk -l.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2031.png)
+![Untitled](screenshots/Untitled%2031.png)
 
 Основной жесткий диск:
 
@@ -300,26 +290,26 @@
 
 ### Запустить команду df.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2032.png)
+![Untitled](screenshots/Untitled%2032.png)
 
 - Root partition occupies(/):
-    - Partition size - 1К х 8408452 KiB
-    - The size of the occupied space - 4056340 KiB
-    - The size of free space - 3903396 KiB
-    - The percentage usage - 51%
+  - Partition size - 1К х 8408452 KiB
+  - The size of the occupied space - 4056340 KiB
+  - The size of free space - 3903396 KiB
+  - The percentage usage - 51%
 
 ### Запустить команду df -Th.
 
-![Снимок экрана 2023-07-23 в 3.32.18 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-23_%25D0%25B2_3.32.18_PM.png)
+![Снимок экрана 2023-07-23 в 3.32.18 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-23_%25D0%25B2_3.32.18_PM.png)
 
 - Root partition occupies(/):
-    - Partition size - 8.1GiB
-    - The size of the occupied space - 3.9GiB
-    - The size of free space - 3.8GiB
-    - The percentage usage - 51%
+  - Partition size - 8.1GiB
+  - The size of the occupied space - 3.9GiB
+  - The size of free space - 3.8GiB
+  - The percentage usage - 51%
 - The `df -hx tmpfs` script shows us information in a readable and convenient form in gigabytes and megabytes
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2033.png)
+![Untitled](screenshots/Untitled%2033.png)
 
 - Type of the filesystem is `ext4`
 
@@ -329,11 +319,11 @@
 
 ### Вывести размер папок /home, /var, /var/log (в байтах, в человекочитаемом виде)
 
-### Вывести размер всего содержимого в /var/log (не общее, а каждого вложенного элемента, используя *)
+### Вывести размер всего содержимого в /var/log (не общее, а каждого вложенного элемента, используя \*)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2034.png)
+![Untitled](screenshots/Untitled%2034.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2035.png)
+![Untitled](screenshots/Untitled%2035.png)
 
 - `du -sbh /var/log/*`
 
@@ -343,11 +333,11 @@
 
 ### Вывести размер папок /home, /var, /var/log.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2036.png)
+![Untitled](screenshots/Untitled%2036.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2037.png)
+![Untitled](screenshots/Untitled%2037.png)
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2038.png)
+![Untitled](screenshots/Untitled%2038.png)
 
 ## Part 14. Работа с системными журналами
 
@@ -359,26 +349,26 @@
 
 ### 3. /var/log/auth.log
 
-![Снимок экрана 2023-07-23 в 4.35.35 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-23_%25D0%25B2_4.35.35_PM.png)
+![Снимок экрана 2023-07-23 в 4.35.35 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-23_%25D0%25B2_4.35.35_PM.png)
 
 - 15:15 - authorization time
 - `santobab`
 - `santobab` вошел в систему локально на консоли (**`tty1`**).
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2039.png)
+![Untitled](screenshots/Untitled%2039.png)
 
 ## Part 15. Использование планировщика заданий **CRON**
 
 ### Используя планировщик заданий, запустите команду uptime через каждые 2 минуты.
 
-![Untitled](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/Untitled%2040.png)
+![Untitled](screenshots/Untitled%2040.png)
 
 - crontab -e
-- */2 * * * * uptime
+- _/2 _ \* \* \* uptime
 - crontab -l
 
 ### Удалите все задания из планировщика заданий.
 
-![Снимок экрана 2023-07-23 в 4.57.52 PM.png](D01_Linux-1%2051a7396a71f64fd3bb5f943089dc7f7b/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-23_%25D0%25B2_4.57.52_PM.png)
+![Снимок экрана 2023-07-23 в 4.57.52 PM.png](screenshots/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA_%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0_2023-07-23_%25D0%25B2_4.57.52_PM.png)
 
 - All commands on run were deleted by using command `crontab -r`
