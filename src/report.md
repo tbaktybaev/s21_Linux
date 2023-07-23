@@ -390,3 +390,9 @@
 ![Снимок экрана 2023-07-23 в 4.57.52 PM.png](screenshots/Снимок экрана 2023-07-23 в 4.57.52 PM.png)
 
 - All commands on run were deleted by using command `crontab -r`
+
+## СПАСИБО ЗА ПРОВЕРКУ!!!
+
+## ЭТО ТЫ:
+
+![Кит](screenshots/kotik.jpeg)
